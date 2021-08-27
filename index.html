@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Introduction</title>
+    <style>
+        .post{
+            text-align: center;
+            padding: 12px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            margin: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <h3>api intro</h3>
+    <button onclick="loadData()">load data</button>
+    <button onclick="loadUser()">show user</button>
+    <button onclick="loadPost()">show post</button>
+    <button onclick="loadComments()">show comments</button>
+    <button onclick="loadPhotos()">show photo</button>
+
+    <h1>display users</h1>
+    <ul id="users"></ul>
+
+    
+    <section id="posts">
+        <h1>display posts</h1>
+    </section>
+
+    <h1>display comments</h1>
+    <ul id="commnets"></ul>
+    
+    <h1>display photos</h1>
+    <section id="photos"></section>
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
